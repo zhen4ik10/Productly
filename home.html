@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>HomePage</title>
+	<title>Productly</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240229110429">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240301063605">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<img src="img/logo.svg" alt="logo" class="header__logo">
+				<img id="logo" src="img/logo.svg" alt="logo" class="header__logo">
 				<div class="header__body">
 					<div class="header__menu menu">
 						<nav class="menu__body">
@@ -44,8 +44,8 @@
 							</ul>
 						</nav>
 					</div>
-					<div data-da=".menu__body,480" class="header__user">
-						<button type="button" class="button button--border">
+					<div data-da=".menu__body,479.98" class="header__user">
+						<button type="button" class="button button--border button--border-right">
 							Sign In
 						</button>
 						<button type="button" class="button ">
@@ -58,6 +58,35 @@
 			</div>
 		</header>
 		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title title ">
+							The Design Thinking superpowers
+						</h1>
+						<div class="hero__text">
+							<p>
+								Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine
+								your next user experience.
+							</p>
+						</div>
+						<div class="hero__button">
+							<button class="button button--w-175">
+								Get started
+							</button>
+							<a href="#!" class="hero__watch-button _icon-play">
+								<span>
+									Watch the Video
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="hero__image">
+						<img src="img/hero/hero_image.svg" alt="hero-image">
+					</div>
+				</div>
+			</section>
+
 			<!-- <h2 class="title title--margin">
     We design tools to unveil your superpowers
 </h2>
@@ -121,10 +150,76 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				<a href="#logo" class="footer__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<div class="item-footer">
+					<h4 class="item-footer__title">
+						Quick Links
+					</h4>
+					<ul class="item-footer__list">
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								About Us
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Blog
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Contact
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								FAQ
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="item-footer">
+					<h4 class="item-footer__title">
+						Legal Stuff
+					</h4>
+					<ul class="item-footer__list">
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Disclaimer
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Financing
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Privacy Policy
+							</a>
+						</li>
+						<li class="item-footer__item">
+							<a href="#!" class="item-footer__link">
+								Terms of Service
+							</a>
+						</li>
+					</ul>
+				</div>
+				<form action="#" class="item-footer form-footer">
+					<h4 class="form-footer__title">
+						knowing you're always on the best energy deal.
+					</h4>
+					<input class="form-footer__input" type="number" placeholder="Enter your phone">
+					<button class="button button--w-130">
+						Sign up Now
+					</button>
+				</form>
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240229110429"></script>
+	<script src="js/app.min.js?_v=20240301063605"></script>
 </body>
 
 </html>
