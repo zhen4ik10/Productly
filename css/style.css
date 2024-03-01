@@ -175,7 +175,8 @@ h6 {
 .title {
   font-size: 2.25rem;
   font-weight: 700;
-  color: #2f281e
+  color: #2f281e;
+  line-height: 1.4
 }
 .title--margin:not(:last-child) {
   margin-bottom: 1.375rem
@@ -383,7 +384,7 @@ h6 {
 }
 .profession .list-body__item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   -webkit-column-gap: 1.875rem;
   -moz-column-gap: 1.875rem;
   column-gap: 1.875rem;
