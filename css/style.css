@@ -1508,9 +1508,6 @@ button.swiper-pagination-bullet {
   .header__body {
     justify-content: space-between
   }
-  .header__user {
-    margin-left: -.9375rem
-  }
   .footer__container {
     padding-top: 1.875rem
   }
@@ -1563,18 +1560,21 @@ button.swiper-pagination-bullet {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-start;
     row-gap: 2.5rem;
     padding-left: .9375rem
   }
   .menu__list {
-    align-items: flex-end
+    align-items: flex-start
   }
   .button {
     padding-left: 1.25rem
   }
   .button {
     padding-right: 1.25rem
+  }
+  .button--w-130 {
+    width: 100%
   }
   .header__user {
     -webkit-column-gap: 2.5rem;
@@ -1598,11 +1598,17 @@ button.swiper-pagination-bullet {
     height: 100%;
     background-color: rgba(51,51,51,.4)
   }
+  .item-tools__button {
+    width: 100%
+  }
   .profession__items {
     text-align: center
   }
   .head-content {
     text-align: center
+  }
+  .hero__button button {
+    flex: 1 1 100%
   }
 }
 @media (max-width:25.93625em) {
@@ -1613,14 +1619,6 @@ button.swiper-pagination-bullet {
 @media (max-width:23.74875em) {
   .form-footer button {
     width: 100%
-  }
-  .item-tools__button {
-    width: 100%
-  }
-}
-@media (max-width:23.62375em) {
-  .hero__button button {
-    flex: 1 1 100%
   }
 }
 @media (min-width:20em) and (max-width:71.875em) {
